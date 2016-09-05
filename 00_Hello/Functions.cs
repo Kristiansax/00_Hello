@@ -6,9 +6,9 @@
         {
             return "Hello";
         }
-        public static string HelloFred()
+        public static string Hello(string name)
         {
-            return "hello, Fred";
+            return "hello, "+name;
         }
     }
 }
